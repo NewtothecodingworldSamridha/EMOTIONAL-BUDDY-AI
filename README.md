@@ -12,7 +12,7 @@ An intelligent emotional support chatbot with advanced emotion detection and per
 
 ## 🚀 Live Demo
 
-[Visit the live app here](https://your-app-url.onrender.com)
+[Visit the live app here](https://emotional-buddy-ai.onrender.com/)
 
 ## 🆘 Crisis Resources
 
