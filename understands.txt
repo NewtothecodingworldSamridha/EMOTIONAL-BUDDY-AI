@@ -1,0 +1,7 @@
+BOT TYPICALLY UNDERSTANDS:
+ ✅ Direct emotions: "I feel sad"
+ ✅ Indirect emotions: "I want to cry"
+ ✅ Context: "Can't sleep, heart racing" → ANXIOUS
+ ✅ Questions: "Why is this happening?" → ANXIOUS
+ ✅ Strong emotions: "I HATE THIS!" → ANGRY
+ ✅ Negations: "I'm not worried" → Won't detect ANXIOUS
