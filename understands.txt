@@ -1,4 +1,4 @@
-BOT TYPICALLY UNDERSTANDS:
+ BOT TYPICALLY UNDERSTANDS:
  ✅ Direct emotions: "I feel sad"
  ✅ Indirect emotions: "I want to cry"
  ✅ Context: "Can't sleep, heart racing" → ANXIOUS
