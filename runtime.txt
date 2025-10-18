@@ -1,1 +1,39 @@
-python-3.9.18
+python-3.11.9
+```
+5. Commit the change
+
+---
+
+## 🚨 Quick Fix #2: Update Build Command
+
+The build command might be failing with TextBlob corpora download.
+
+**In Render Dashboard:**
+
+1. Go to your service settings
+2. Find **"Build Command"**
+3. Replace it with:
+```
+   pip install -r requirements.txt && python -m textblob.download_corpora || true
+```
+   (The `|| true` prevents the build from failing if corpora download has issues)
+
+---
+
+## 🚨 Quick Fix #3: Update requirements.txt
+
+Some packages might have version conflicts.
+
+**Fix this:**
+
+1. Go to your GitHub repository
+2. Click on `requirements.txt`
+3. Click the pencil icon (✏️) to edit
+4. Replace ALL content with:
+```
+   flask==3.0.3
+   flask-cors==4.0.0
+   sqlalchemy==2.0.30
+   textblob==0.18.0
+   vaderSentiment==3.3.2
+   gunicorn==22.0.0
